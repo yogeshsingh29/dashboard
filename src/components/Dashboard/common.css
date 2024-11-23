@@ -26,6 +26,7 @@
 
 
 
+
 /* sidebar */
 .sidebar {
   display: flex;
@@ -137,3 +138,29 @@
  .text-lg{
   font-size: 21px;
  }
+
+
+
+
+ @media (max-width: 768px) {
+  .dashboard-container {
+    display: block;
+  }
+
+
+  .sidebar-links {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    overflow: scroll;
+  }
+
+
+  .toggle-button {
+    display: none;
+    margin-top: 10px;
+  }
+  
+
+
+}
